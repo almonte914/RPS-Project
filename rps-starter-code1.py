@@ -129,8 +129,8 @@ class Game:
 
 #Method to choose whether to play a single round or several rounds#
 if __name__ == '__main__':
-    game = Game(HumanPlayer(), CyclePlayer())
+    game = Game(HumanPlayer(), RandomPlayer())
     #HumanPlayer(), ReflectPlayer()) 
-    #RandomPlayer())
+    #CyclePlayer())
     game.play_game()
-    #, game.play_round()
+    #game.play_round()
